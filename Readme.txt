@@ -1,8 +1,11 @@
-I really have no idea what I'm doing, please disregard this project for now.  If you've check it out, delete it.  No, I'm not kidding.
+This has been tested thoroughly on Mac OS X 10.7 ("Maverick").  It displays
+nearly identically on Windows, but without a normalize.css or similar, there
+will be certain inconsistencies.
 
-Adam Tenhouse ("Chistery")
+All assets are conisdered 'fair use' insofar as they are extracts of far less
+than a chapter of a given text used to explore the relations among American
+history, juvenile media, and Upton Sinclair's larger reception in American
+society.
 
-NO SERIOUSLY
-STOP
-STOP IT NOW
-I'M VERY QUITE CLEAR ON THIS, THIS IS A TERRIBLE PROJECT HOSTING ASSIGNMENT
+Adam Eugene Tenhouse
+2014
