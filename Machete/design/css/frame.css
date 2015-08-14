@@ -1,17 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-
 /**
  * frame.css - default css styling for 402 framework
  */
-
 /*html and body styles*/
-
 html, body {
-height: 100%;
-width: 100%;
-margin: 0px;
+	height: 100%;
+	width: 100%;
+	margin: 0px;
 }
-
 /*specific body styles*/
 body {
 	background: url('./images/ricepaper2.png') repeat #ffeeee;
@@ -21,221 +17,178 @@ body {
 	color: #555555;
 	min-width: 1100px;
 }
-
 /*header no.1*/
-h1
-{
-font-size:20px;
-font-weight:700;
-color:#333;
+h1 {
+	font-size: 20px;
+	font-weight: 700;
+	color: #333;
 }
-
 /*header no.2*/
-h2
-{
-font-size:18px;
-font-weight:700;
-color:#333;
+h2 {
+	font-size: 18px;
+	font-weight: 700;
+	color: #333;
 }
-
 /*header no.3*/
-h3
-{
-font-size:16px;
-font-weight:700;
-color:#333;
+h3 {
+	font-size: 16px;
+	font-weight: 700;
+	color: #333;
 }
-
 /*header no.4*/
-h4
-{
-font-size:15px;
-font-weight:400;
-color:#333;
+h4 {
+	font-size: 15px;
+	font-weight: 400;
+	color: #333;
 }
-
 /*header no.5*/
-h5
-{
-font-size:14px;
-font-weight:400;
-color:#333;
+h5 {
+	font-size: 14px;
+	font-weight: 400;
+	color: #333;
 }
-
 /*header no.6*/
-h6
-{
-margin:10px 0 0;
-font-size:12px;
-font-weight:400;
-text-decoration:underline;
-color:#333;
-}	
-
-
+h6 {
+	margin: 10px 0 0;
+	font-size: 12px;
+	font-weight: 400;
+	text-decoration: underline;
+	color: #333;
+}
 /*links*/
 a {
-color: #096eb6;
-text-decoration:none;
-cursor: pointer;
+	color: #096eb6;
+	text-decoration: none;
+	cursor: pointer;
 }
-
 /* mouse over link */
 a:hover {
-text-decoration: underline;
+	text-decoration: underline;
 }
-
 /*image link - removes blue border often rendered in earlier IE*/
 a img {
-border: 0;
+	border: 0;
 }
-
 /*default paragraph styling*/
 p {
-line-height: 15px;
-font-size: 1rem;
+	line-height: 15px;
+	font-size: 1rem;
 }
-
 /*default unordered list styling*/
 ul {
-padding: 0;
-margin: 0;
+	padding: 0;
+	margin: 0;
 }
-
 ul li {
-list-style: square;
+	list-style: square;
 }
-
 div.text li {
 	margin-left: 15px;
 	margin-bottom: 3px;
 	font-size: 1rem;
 	list-style: disc;
 }
-
 div.text li:nth-of-type(3) {
 	padding: 0 0 6px 0;
 }
-
 .highlight {
-	background-color: pink; 
+	background-color: pink;
 }
-
 /*generic table styles*/
 table {
-margin: 20px 0 20px 5px;
-width: 95%;
+	margin: 20px 0 20px 5px;
+	width: 95%;
 }
-
 thead {
-background-color: #f2f2f2;
-padding: 5px;
-text-transform: uppercase;
-font-size: 110%;
+	background-color: #f2f2f2;
+	padding: 5px;
+	text-transform: uppercase;
+	font-size: 110%;
 }
-
 th {
-cursor: pointer;
-color: #096eb6;
-font-weight: normal;
-border: 1px solid black;
-padding: 12px;
+	cursor: pointer;
+	color: #096eb6;
+	font-weight: normal;
+	border: 1px solid black;
+	padding: 12px;
 }
-
 td {
-border: 1px solid black;
-padding: 0;
-font-size: 11px;
+	border: 1px solid black;
+	padding: 0;
+	font-size: 11px;
 }
-
 td img {
-max-width: 150px;
-max-height: 150px;
-padding: 10px;
+	max-width: 150px;
+	max-height: 150px;
+	padding: 10px;
 }
-
 .image {
 	cursor: hand;
 	cursor: pointer;
 }
-
 /**
  * site menus
  */
- 
 /*horizontal menu*/
-
 .horizontal_menu {
-top:30px;
-display:inline-block;
+	top: 30px;
+	display: inline-block;
 }
-
 .horizontal_menu ul {
-list-style-type:none;
-margin:0;
-padding:0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
-
 .horizontal_menu li {
-float:left;
-position:relative;
-z-index:100;
-list-style-type:none;
+	float: left;
+	position: relative;
+	z-index: 100;
+	list-style-type: none;
 }
-
-.horizontal_menu a,.horizontal_menu :visited {
-display:block;
-font-size:1rem;
-width:6vw;
-color:#000;
-background:#eee;
-/*border:1px solid #dedede;*/
-text-decoration:none;
-text-transform:capitalize;
-font-weight:700;
-margin-right:0;
-text-align:center;
--webkit-transition:margin-top .9s, color .9s, background, .9s;
-transition:margin-top .9s, color .9s, background .9s;
-padding:8px 0;
+.horizontal_menu a, .horizontal_menu:visited {
+	display: block;
+	font-size: 1rem;
+	width: 6vw;
+	color: #000;
+	background: #eee;/*border:1px solid #dedede;*/
+	text-decoration: none;
+	text-transform: capitalize;
+	font-weight: 700;
+	margin-right: 0;
+	text-align: center;
+	-webkit-transition: margin-top .9s, color .9s, background, .9s;
+	transition: margin-top .9s, color .9s, background .9s;
+	padding: 8px 0;
 }
-
-.horizontal_menu ul :hover {
-color:#FFF;
-background:red;
-text-decoration:none;
-margin-top:-6px;
+.horizontal_menu ul:hover {
+	color: #FFF;
+	background: red;
+	text-decoration: none;
+	margin-top: -6px;
 }
-
 .horizontal_menu ul ul {
-visibility:hidden;
-position:absolute;
-width:90px;
-height:0;
+	visibility: hidden;
+	position: absolute;
+	width: 90px;
+	height: 0;
 }
-
-.horizontal_menu ul li:hover ul,.horizontal_menu ul a:hover ul {
-visibility:visible;
+.horizontal_menu ul li:hover ul, .horizontal_menu ul a:hover ul {
+	visibility: visible;
 }
-
-.horizontal_menu::after,.horizontal_menu::before {
-content:'';
-float:left;
-width:12px;
-border:1.2em solid #FFF;
-margin:-3px 0 0;
-padding:0;
+.horizontal_menu::after, .horizontal_menu::before {
+	content: '';
+	float: left;
+	width: 12px;
+	border: 1.2em solid #FFF;
+	margin: -3px 0 0;
+	padding: 0;
 }
-
 .horizontal_menu::after {
-border-right-color:transparent;
+	border-right-color: transparent;
 }
-
 .horizontal_menu::before {
-border-left-color:transparent;
+	border-left-color: transparent;
 }
-
-
 form input {
 	height: auto;
 	padding: 5px 0 5px 0;
@@ -243,49 +196,39 @@ form input {
 	border: 2px #3B3833 solid;
 	background: #ff0000;
 }
-
 input[value="search"] {
 	width: 7vw;
 	font-weight: 700;
 	text-transform: uppercase;
 	background: #808080;
 }
-
 /*vertical menu*/
-
 .vertical_menu ul {
-	display:block;
-	min-width:80px;
-	list-style-type:none;
+	display: block;
+	min-width: 80px;
+	list-style-type: none;
 	margin: 5px auto auto 10px; /** 5px 0 0 10px **/
-	padding:0;
+	padding: 0;
 }
-
 .vertical_menu li {
-	padding:3px 0;
-	list-style-type:none;
-	text-transform:capitalize;
+	padding: 3px 0;
+	list-style-type: none;
+	text-transform: capitalize;
 	text-decoration: none;
 	color: black;
 }
-
 .vertical_menu ul li a {
 	color: black;
 	text-decoration: underline;
 }
-
-.vertical_menu ul li ul a{
+.vertical_menu ul li ul a {
 	color: red;
 	text-decoration: underline;
 }
-
-
 /**
  * header section
  */
-
 /*header within main container*/
-
 /*========================================================
 This background pattern is downloaded from www.subtlepatterns.com
 If you need more, that's where to get'em.
@@ -299,57 +242,47 @@ div.header {
 	top: 0;
 	border-bottom: 1px solid #cccccc;
 }
-
 /*header logo with image, text...*/
 #header .logo {
-	padding:0px;
+	padding: 0px;
 	height: 90px;
 	width: auto;
 	padding-left: 20px;
 }
-
 /**
  * central section
  */
-
 /*central content*/
 div.centre {
-	height:100%;
+	height: 100%;
 }
-
 /*central node for content output - eg; text, image...*/
 div.node_content {
 	height: 100%;
 	padding: 5px;
 	margin-bottom: 100px;
 }
-
 /*image positioning for central node for content output*/
 div.grid_6 img {
-	width:98%;
+	width: 98%;
 }
-
 div#tg-container {
 	border-radius: 25px;
 }
-
 /**
  * sidebar section
  */
-
 /*sidebar left*/
 div#sidebar_left {
-	height:auto;
+	height: auto;
 	background: white;
 	font-size: 1rem;
 	border-right: 1px solid #cccccc;
 	border-bottom: 1px solid #cccccc;
 	padding-top: 10px;
-	padding-bottom:100px;
+	padding-bottom: 100px;
 }
-
 /*generic styling for metadata output*/
-
 div#sidebar_left div.title {
 	font-size: 1.05rem;
 	text-align: center;
@@ -357,12 +290,10 @@ div#sidebar_left div.title {
 	margin-left: 5px;
 	margin-top: 5px;
 }
-
 /**set to display none because frankly it was easier than altering the view.php.**/
 div.meta_id {
 	display: none;
 }
-
 /*sidebar left title metadata*/
 div#sidebar_left .description {
 	margin: 5px;
@@ -373,102 +304,86 @@ div#sidebar_left .description {
 	font-style: bold;
 	background-color: #444;
 }
-
 /*sidebar left related*/
 div.sidebar_left div.related_title {
 	width: 50%;
 	font-size: 1.12rem;
 	padding: 10px;
 }
-
 /**
  * footer section
  */
-
 /*page footer*/
 div.footer {
-position:fixed;
-left:0px;
-bottom:0px;
-color: #555555;
-height: 15px;
-width:100%;
-background:#ffffff;
-border-top: 1px solid #cccccc;
-padding-top: 5px;
-padding-bottom: 5px;
-text-align: center;
-z-index: 10;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	color: #555555;
+	height: 15px;
+	width: 100%;
+	background: #ffffff;
+	border-top: 1px solid #cccccc;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	z-index: 10;
 }
-
 /**
  * plugins and viewers
  */
-
 /*plugin options*/
 div.plugin_options {
-padding: 5px;
+	padding: 5px;
 }
-
 span.plugin_link {
-margin-left: 20px;
-padding: 5px;
-text-transform: ;
-font-variant: small-caps;
-color: blue;
-cursor: pointer;
+	margin-left: 20px;
+	padding: 5px;
+	text-transform:;
+	font-variant: small-caps;
+	color: blue;
+	cursor: pointer;
 }
-
 .plugin_link:hover {
 	background: blue;
 	color: white;
 }
-
 .plugin_clicked {
 	background: blue;
 	color: white;
 }
-
 .plugin_link:click {
 	background: blue;
 	color: white;
 }
-
 /*gallery viewer options*/
 div.thumb_contain a {
-display: block;
-text-indent: 10px;
+	display: block;
+	text-indent: 10px;
 }
-
 div.thumb_contain img {
-width: 150px;
-height: 150px;
-padding: 0;
+	width: 150px;
+	height: 150px;
+	padding: 0;
 }
-
 /*group pager options*/
 #paging {
-padding-top: 30px;
+	padding-top: 30px;
 }
-
 ul#paging li {
-display: inline;
-padding: 5px;
-border: 1px solid #dedede;
-color: #096eb6;
-text-decoration:none;
-cursor: pointer;
+	display: inline;
+	padding: 5px;
+	border: 1px solid #dedede;
+	color: #096eb6;
+	text-decoration: none;
+	cursor: pointer;
 }
-
 ul#paging li:hover {
-background-color: #eeeeee;
+	background-color: #eeeeee;
 }
-
 ul#paging li.current {
-background-color: #096eb6;
-color: #ffffff;
+	background-color: #096eb6;
+	color: #ffffff;
 }
-
 div.node_content p, div.node_content h1 {
 	margin-top: 0px;
 	margin-left: 0px;
@@ -479,41 +394,35 @@ div.node_content p, div.node_content h1 {
 	line-height: 1.1;
 	height: 100%;
 }
-
 /*xml styling*/
 .tei_LB {
-display:block;
+	display: block;
 }
-
 .tei_centre {
-margin-left: 125px;
+	margin-left: 125px;
 }
-
 .page_num {
-margin-left: 150px;
+	margin-left: 150px;
 }
-
 /*map plugin loader div - where the map is rendered!*/
-#map_canvas { 
-width: 100%;
-height: 800px;
-background-color: #CCC;
+#map_canvas {
+	width: 100%;
+	height: 800px;
+	background-color: #CCC;
 }
-
-@media (max-width: 1000px) {
+@media (max-width:1000px) {
 	div#content div.image {
 		width: 30vw;
 	}
 	div#content div.text {
 		width: 35vw;
 		height: 100%
-		line-height: .7;
+		line-height:.7;
 		margin: 0;
 		padding: 0;
 	}
 }
-
-@media (min-width: 1080px) {
+@media (min-width:1080px) {
 	div#content div.image {
 		width: 35%;
 	}

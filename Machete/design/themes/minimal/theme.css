@@ -1,39 +1,33 @@
-/**
- * theme.css - default css styling for 402 framework user theme 'minimal'
- */
-
-/*header no.3*/
 h3 {
-font-size: 17px;
-font-weight: normal;
-color: #1a3852;
+	font-size: 17px;
+	font-weight: normal;
+	color: #1a3852
 }
 
-/*header*/
 div.header {
-background-color: #3B3833;
-border: none;
+	background-color: #3B3833;
+	border: none
 }
-
-/*sidebar*/
 
 div#plugins {
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 14px
 }
 
 map area {
-	cursor: hand;
+	cursor: hand
 }
 
 .blue-background {
-	background: #7f7fff;
+	background: #7f7fff
 }
 
-#xml_style, #rwdImageMaps, #Mousey {
-	display: none;
+#xml_style,
+#rwdImageMaps,
+#Mousey {
+	display: none
 }
 
 p.teach_question {
-	color: #A21F4B;
+	color: #A21F4B
 }

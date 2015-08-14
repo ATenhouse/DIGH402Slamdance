@@ -1,11 +1,7 @@
 /**
  * image_magnify.js - js for image_magnify plugin using jquery library
- */
-
-/*!
-  ElevateZoom, found online.  It might be a module, but it works --
+  ElevateZoom, found online.
   Better than anything I wrote, anyway.
-  Adam
 	http://www.elevateweb.co.uk/image-zoom
 */
 
@@ -155,7 +151,7 @@
             });
             "inner" != b.options.zoomType && b.zoomLens.bind("mousemove", function(a) {
                 if (b.lastX !== a.clientX || b.lastY !== a.clientY) b.setPosition(a),
-                b.currentLoc = a;
+                    b.currentLoc = a;
                 b.lastX = a.clientX;
                 b.lastY = a.clientY
             });
@@ -628,7 +624,7 @@
 
 /** I wrote the following, based on workaround posted at
 https://github.com/elevateweb/elevatezoom/issues/8.  Unlike
-other libraries, this person hasn't implemeneted a destroy method.**/
+other libraries, this doesn't rely on a destuctive method.**/
 $(document).ready(function() {
     var image = $('#content img');
     var clickyclicky = $('#image_magnify');

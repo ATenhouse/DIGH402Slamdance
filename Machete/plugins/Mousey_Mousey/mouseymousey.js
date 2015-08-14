@@ -1,7 +1,5 @@
 // It's called 'MouseyMousy' because so many of these functions rely on
-// mouse events, but really it's the 'place where I put all the scripts'
-// Adam Tenhouse, 2014
-
+// mouse events, but really it's the reposity for a number of useful scripts.
 // When a user hovers over a certain portion of the scanned image, its
 // section on the transcript is highlighted in a lightblue or light purple
 // background.
@@ -27,9 +25,7 @@ $(document).ready(function() {
 // This part is for resizing text.  it presumes to have a screen as huge as
 // my 40" TV at home, which can lead to interesting results.  It is based on a
 // solution found at StackOverflow, http://stackoverflow.com/a/21278263.
-
 $(document).ready(function() {
-
     var resizeText = function() {
         var defaultFontSize = 130; // %
         var defaultMenuFontSize = 120; // %
@@ -42,11 +38,7 @@ $(document).ready(function() {
         $("div.text p").css("font-size", newFontSize + '%');
         $("div.normalmenu, div.text h1").css("font-size", newMenuFontSize + "%");
     };
-
     $(window).bind('resize', function() {
         resizeText();
     }).trigger('resize');
-
-
-
 });
